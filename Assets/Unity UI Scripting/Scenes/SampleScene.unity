@@ -219,10 +219,10 @@ RectTransform:
   m_Father: {fileID: 837703885}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 141.25, y: -118.20001}
-  m_SizeDelta: {x: 102.5, y: 15.200002}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &106330203
 MonoBehaviour:
@@ -454,7 +454,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &507465861
 RectTransform:
   m_ObjectHideFlags: 0
@@ -576,7 +576,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22400008, guid: b6a1cf4e3eeaf9a4ca38bf8acb910a6d, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -98.380394
+      value: -98.375
       objectReference: {fileID: 0}
     - target: {fileID: 22400008, guid: b6a1cf4e3eeaf9a4ca38bf8acb910a6d, type: 2}
       propertyPath: m_SizeDelta.x
@@ -735,7 +735,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 141.25, y: -103.149025}
+  m_AnchoredPosition: {x: 141.25, y: -103.125}
   m_SizeDelta: {x: 102.5, y: 9.537255}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &640355412
@@ -770,7 +770,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Master Volume
+  m_Text: Sound Effect Volume
 --- !u!222 &640355413
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -809,10 +809,10 @@ RectTransform:
   m_Father: {fileID: 507465861}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 141.25, y: -123.625}
+  m_SizeDelta: {x: 102.5, y: 4.3846154}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &666295946
 MonoBehaviour:
@@ -905,7 +905,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &837703885
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1178,7 +1178,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22400008, guid: b6a1cf4e3eeaf9a4ca38bf8acb910a6d, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -107.91765
+      value: -107.875
       objectReference: {fileID: 0}
     - target: {fileID: 22400008, guid: b6a1cf4e3eeaf9a4ca38bf8acb910a6d, type: 2}
       propertyPath: m_SizeDelta.x
@@ -1242,7 +1242,7 @@ GameObject:
   - component: {fileID: 1110213045}
   - component: {fileID: 1110213044}
   m_Layer: 5
-  m_Name: MasterVol Label
+  m_Name: Helptxt Label
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1261,10 +1261,10 @@ RectTransform:
   m_Father: {fileID: 507465861}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 141.25, y: -95}
+  m_SizeDelta: {x: 102.5, y: 52.907696}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1110213044
 MonoBehaviour:
@@ -1287,18 +1287,23 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 7cb2912222469634ba17a77055919ea8, type: 3}
-    m_FontSize: 32
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 1
-    m_VerticalOverflow: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Master Volume
+  m_Text: "Spent 24 hours\r I need more hours with you\r\nYou spent the weekend\r
+    Getting even, ooh ooh\r\nWe spent the late nights \rMaking things right, between
+    us\r But now it's all good baby\r Roll that Backwood baby\r And play me close\r\n'Cause
+    girls like you\r Run around with guys like me\r 'Til sundown, when I come through\r
+    I need a girl like you, yeah yeah\r Girls like you\r\nLove fun, yeah me too\r
+    What I want when I come through\r I need a girl like you, yeah yeah"
 --- !u!222 &1110213045
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1350,10 +1355,10 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -1433,7 +1438,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 141.25, y: -93.61177}
+  m_AnchoredPosition: {x: 141.25, y: -93.625}
   m_SizeDelta: {x: 102.5, y: 9.537255}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1171987315
@@ -1507,7 +1512,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 141.25, y: -84.07452}
+  m_AnchoredPosition: {x: 141.25, y: -84.0625}
   m_SizeDelta: {x: 102.5, y: 9.537255}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1265241052
@@ -1717,7 +1722,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 141.25, y: -72.15294}
+  m_AnchoredPosition: {x: 141.25, y: -72.125}
   m_SizeDelta: {x: 102.5, y: 14.305883}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1416237634
@@ -1793,7 +1798,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 141.25, y: -116.858826}
+  m_AnchoredPosition: {x: 141.25, y: -116.875}
   m_SizeDelta: {x: 102.5, y: 17.882353}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1423651481
@@ -1902,10 +1907,10 @@ RectTransform:
   m_Father: {fileID: 837703885}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 141.25, y: -72.6}
-  m_SizeDelta: {x: 102.5, y: 15.200002}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1675897617
 MonoBehaviour:
@@ -2087,10 +2092,10 @@ RectTransform:
   m_Father: {fileID: 837703885}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 141.25, y: -87.8}
-  m_SizeDelta: {x: 102.5, y: 15.200002}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1708787444
 MonoBehaviour:
@@ -2198,10 +2203,10 @@ RectTransform:
   m_Father: {fileID: 837703885}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 141.25, y: -103.00001}
-  m_SizeDelta: {x: 102.5, y: 15.200002}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1891319671
 MonoBehaviour:
@@ -2372,7 +2377,7 @@ GameObject:
   - component: {fileID: 2047153526}
   - component: {fileID: 2047153525}
   m_Layer: 5
-  m_Name: AudioLabel
+  m_Name: HelpLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2391,10 +2396,10 @@ RectTransform:
   m_Father: {fileID: 507465861}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 141.25, y: -66.75}
+  m_SizeDelta: {x: 102.5, y: 3.5076923}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2047153525
 MonoBehaviour:
@@ -2428,7 +2433,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Audio
+  m_Text: Help
 --- !u!222 &2047153526
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2480,7 +2485,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22400008, guid: b6a1cf4e3eeaf9a4ca38bf8acb910a6d, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -88.84314
+      value: -88.875
       objectReference: {fileID: 0}
     - target: {fileID: 22400008, guid: b6a1cf4e3eeaf9a4ca38bf8acb910a6d, type: 2}
       propertyPath: m_SizeDelta.x
