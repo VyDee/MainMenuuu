@@ -547,6 +547,7 @@ GameObject:
   m_Component:
   - component: {fileID: 451734401}
   - component: {fileID: 451734402}
+  - component: {fileID: 451734403}
   m_Layer: 0
   m_Name: LoadSound
   m_TagString: Untagged
@@ -662,6 +663,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &451734403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 451734400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0acf64e5ebba06947a28d243d89f6eac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Volume: {fileID: 844862611}
+  myMusic: {fileID: 451734402}
 --- !u!1 &507465860
 GameObject:
   m_ObjectHideFlags: 0
@@ -1268,48 +1282,6 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 507843549}
   m_Script: {fileID: -113659843, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
---- !u!1 &684552560
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 684552561}
-  - component: {fileID: 684552562}
-  m_Layer: 0
-  m_Name: MasterSound
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &684552561
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 684552560}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1828854612}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &684552562
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 684552560}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0acf64e5ebba06947a28d243d89f6eac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Volume: {fileID: 844862611}
-  myMusic: {fileID: 0}
 --- !u!1 &837703884
 GameObject:
   m_ObjectHideFlags: 0
@@ -2161,6 +2133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1370898476}
   - component: {fileID: 1370898477}
+  - component: {fileID: 1370898478}
   m_Layer: 0
   m_Name: QuitSound
   m_TagString: Untagged
@@ -2276,6 +2249,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1370898478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1370898475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0acf64e5ebba06947a28d243d89f6eac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Volume: {fileID: 844862611}
+  myMusic: {fileID: 1370898477}
 --- !u!1 &1373660952
 GameObject:
   m_ObjectHideFlags: 0
@@ -2347,6 +2333,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1410725895}
   - component: {fileID: 1410725896}
+  - component: {fileID: 1410725897}
   m_Layer: 0
   m_Name: CloseSound
   m_TagString: Untagged
@@ -2462,6 +2449,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1410725897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1410725894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0acf64e5ebba06947a28d243d89f6eac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Volume: {fileID: 844862611}
+  myMusic: {fileID: 1410725896}
 --- !u!1 &1416237632
 GameObject:
   m_ObjectHideFlags: 0
@@ -2977,7 +2977,7 @@ Transform:
   - {fileID: 1370898476}
   - {fileID: 1410725895}
   m_Father: {fileID: 1828854612}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1581366021
 AudioSource:
@@ -3631,7 +3631,6 @@ Transform:
   m_LocalPosition: {x: 323.5709, y: 172.30966, z: 3.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 684552561}
   - {fileID: 1581366020}
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -4003,6 +4002,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2057266648}
   - component: {fileID: 2057266649}
+  - component: {fileID: 2057266650}
   m_Layer: 0
   m_Name: ButtonHighlightSound
   m_TagString: Untagged
@@ -4118,6 +4118,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2057266650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2057266647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0acf64e5ebba06947a28d243d89f6eac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Volume: {fileID: 844862611}
+  myMusic: {fileID: 2057266649}
 --- !u!1001 &2116173356
 Prefab:
   m_ObjectHideFlags: 0
