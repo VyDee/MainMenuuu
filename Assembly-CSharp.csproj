@@ -67,6 +67,7 @@
     <Compile Include="Assets\Unity UI Scripting\Scripts\DropMe.cs" />
     <Compile Include="Assets\Unity UI Scripting\Scripts\LoadOnEnter.cs" />
     <Compile Include="Assets\Unity UI Scripting\Scripts\LoadSceneOnClick.cs" />
+    <Compile Include="Assets\Unity UI Scripting\Scripts\Music\ChangeMusicVolume.cs" />
     <Compile Include="Assets\Unity UI Scripting\Scripts\PanelManager.cs" />
     <Compile Include="Assets\Unity UI Scripting\Scripts\QuitOnClick.cs" />
     <Compile Include="Assets\Unity UI Scripting\Scripts\QuitOnEnter.cs" />
