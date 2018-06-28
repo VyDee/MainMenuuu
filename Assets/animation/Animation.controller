@@ -253,7 +253,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.16666667
-        value: 0.7505785
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -281,7 +281,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.16666667
-        value: 0.8988964
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -309,7 +309,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.16666667
-        value: 0.9528302
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -514,7 +514,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.16666667
-        value: 0.7505785
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -542,7 +542,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.16666667
-        value: 0.8988964
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -570,7 +570,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.16666667
-        value: 0.9528302
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -770,13 +770,13 @@ AnimatorState:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Highlighted
-  m_Speed: 1
+  m_Speed: 0.36
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -848,16 +848,16 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 1102007237351519760}
-    m_Position: {x: 192, y: 36, z: 0}
+    m_Position: {x: 372, y: 48, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102442079969107786}
-    m_Position: {x: 192, y: 96, z: 0}
+    m_Position: {x: 372, y: 108, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102376151017254668}
-    m_Position: {x: 192, y: 168, z: 0}
+    m_Position: {x: 372, y: 156, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102518215671033912}
-    m_Position: {x: 192, y: 228, z: 0}
+    m_Position: {x: 372, y: 216, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102454077758039152}
     m_Position: {x: 227, y: 293, z: 0}
@@ -871,7 +871,7 @@ AnimatorStateMachine:
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: -12, y: 48, z: 0}
-  m_EntryPosition: {x: 216, y: -12, z: 0}
-  m_ExitPosition: {x: 800, y: 120, z: 0}
+  m_EntryPosition: {x: 444, y: 0, z: 0}
+  m_ExitPosition: {x: 612, y: 132, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 1102007237351519760}

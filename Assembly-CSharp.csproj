@@ -59,6 +59,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Colorblind Effect\Assets\Scripts\Colorblind.cs" />
     <Compile Include="Assets\Unity UI Scripting\Scripts\ActiveStateToggler.cs" />
     <Compile Include="Assets\Unity UI Scripting\Scripts\ApplicationManager.cs" />
     <Compile Include="Assets\Unity UI Scripting\Scripts\ChangeColor.cs" />
@@ -68,6 +69,7 @@
     <Compile Include="Assets\Unity UI Scripting\Scripts\LoadOnEnter.cs" />
     <Compile Include="Assets\Unity UI Scripting\Scripts\LoadSceneOnClick.cs" />
     <Compile Include="Assets\Unity UI Scripting\Scripts\Music\ChangeMusicVolume.cs" />
+    <Compile Include="Assets\Unity UI Scripting\Scripts\Music\MasterVolume.cs" />
     <Compile Include="Assets\Unity UI Scripting\Scripts\PanelManager.cs" />
     <Compile Include="Assets\Unity UI Scripting\Scripts\QuitOnClick.cs" />
     <Compile Include="Assets\Unity UI Scripting\Scripts\QuitOnEnter.cs" />
@@ -79,7 +81,9 @@
     <Compile Include="Assets\Unity UI Scripting\Scripts\TiltWindow.cs" />
     <None Include="Assets\Unity UI Scripting\Fonts\Jupiter\LICENSE.txt" />
     <None Include="Assets\Unity UI Scripting\Textures and Sprites\SF UI\Background\LICENSE.txt" />
+    <None Include="Assets\Colorblind Effect\Documentation\ReadMe.txt" />
     <None Include="Assets\Unity UI Scripting\Materials\UI-Default-No-Alpha.shader" />
+    <None Include="Assets\Colorblind Effect\Assets\Shaders\Colorblind.shader" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/admin/Documents/vy/mainmenu/New Unity Project/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
