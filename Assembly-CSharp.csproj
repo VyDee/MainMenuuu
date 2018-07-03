@@ -60,6 +60,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Colorblind Effect\Assets\Scripts\Colorblind.cs" />
+    <Compile Include="Assets\luke stuff\Assets\Trusty Patches\Imported Assets\Lava_Flowing_Shader\Scripts\ScrollingUVs_Layers.cs" />
+    <Compile Include="Assets\luke stuff\Assets\Trusty Patches\Imported Assets\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
+    <Compile Include="Assets\luke stuff\Assets\Trusty Patches\Imported Assets\Skyboxes\Sky FX Pack\Scripts\LightBeamsControlScript.cs" />
+    <Compile Include="Assets\luke stuff\Assets\Trusty Patches\Imported Assets\Skyboxes\Sky FX Pack\Scripts\LookAtBehaviour.cs" />
+    <Compile Include="Assets\luke stuff\Assets\Trusty Patches\Imported Assets\Skyboxes\Sky FX Pack\Scripts\RayBehavior.cs" />
+    <Compile Include="Assets\luke stuff\Assets\Trusty Patches\Imported Assets\Skyboxes\Sky FX Pack\Scripts\RotateBehaviour.cs" />
+    <Compile Include="Assets\luke stuff\Assets\Trusty Patches\Imported Assets\Skyboxes\Sky FX Pack\Scripts\ScrollBehaviour.cs" />
+    <Compile Include="Assets\luke stuff\Assets\Trusty Patches\Scripts\CustomizerScripts\CameraRotate.cs" />
+    <Compile Include="Assets\luke stuff\Assets\Trusty Patches\Scripts\CustomizerScripts\ColorPicker.cs" />
+    <Compile Include="Assets\luke stuff\Assets\Trusty Patches\Scripts\CustomizerScripts\HeadPicker.cs" />
+    <Compile Include="Assets\luke stuff\Assets\Trusty Patches\Scripts\CustomizerScripts\InitiateCustom.cs" />
+    <Compile Include="Assets\luke stuff\Assets\Trusty Patches\Scripts\CustomizerScripts\SaveAndCancel.cs" />
+    <Compile Include="Assets\luke stuff\Assets\Trusty Patches\Scripts\PlayerScripts\AWSDMoveSkip.cs" />
+    <Compile Include="Assets\luke stuff\Assets\Trusty Patches\Scripts\PlayerScripts\CameraFollowSkip.cs" />
+    <Compile Include="Assets\luke stuff\Assets\Trusty Patches\Scripts\SaveDataScripts\SaveCharData.cs" />
+    <Compile Include="Assets\luke stuff\Assets\Trusty Patches\Scripts\UI Scripts\GameStart.cs" />
     <Compile Include="Assets\Unity UI Scripting\Scripts\ActiveStateToggler.cs" />
     <Compile Include="Assets\Unity UI Scripting\Scripts\ApplicationManager.cs" />
     <Compile Include="Assets\Unity UI Scripting\Scripts\ChangeColor.cs" />
@@ -79,7 +95,12 @@
     <Compile Include="Assets\Unity UI Scripting\Scripts\ShowSliderValue.cs" />
     <Compile Include="Assets\Unity UI Scripting\Scripts\Special Features\DropDown.cs" />
     <Compile Include="Assets\Unity UI Scripting\Scripts\TiltWindow.cs" />
+    <None Include="Assets\luke stuff\Assets\Trusty Patches\Imported Assets\Lava_Flowing_Shader\Shaders\Unlit_Lava_Simple.shader" />
+    <None Include="Assets\luke stuff\Assets\Trusty Patches\Imported Assets\Lava_Flowing_Shader\Shaders\Diffuse_Lava_Distort.shader" />
     <None Include="Assets\Unity UI Scripting\Fonts\Jupiter\LICENSE.txt" />
+    <None Include="Assets\luke stuff\Assets\Trusty Patches\Imported Assets\Lava_Flowing_Shader\Shaders\Unlit_Lava_Distort.shader" />
+    <None Include="Assets\luke stuff\Assets\Trusty Patches\Imported Assets\LowPolyWater_Pack\Shaders\WaterShaded.shader" />
+    <None Include="Assets\luke stuff\Assets\Trusty Patches\Imported Assets\Lava_Flowing_Shader\Shaders\Unlit_Lava_Distort_Transparent.shader" />
     <None Include="Assets\Unity UI Scripting\Textures and Sprites\SF UI\Background\LICENSE.txt" />
     <None Include="Assets\Colorblind Effect\Documentation\ReadMe.txt" />
     <None Include="Assets\Unity UI Scripting\Materials\UI-Default-No-Alpha.shader" />
