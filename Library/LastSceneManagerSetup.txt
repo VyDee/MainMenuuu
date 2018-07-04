@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scene/MainMenu.unity
+- path: Assets/luke stuff/Assets/Trusty Patches/Scenes/Eden/Eden.unity
   isLoaded: 1
   isActive: 1
